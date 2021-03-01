@@ -5,7 +5,6 @@ seaborn
 sqlalchemy
 flask
 flask_pymongo
-os
 gunicorn
 django
 django-heroku
