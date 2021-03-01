@@ -17,7 +17,7 @@ engine = create_engine(f'postgres://pyuepqwjtgkmfx:75425df2df071f0b81f4e7bca3ad4
 #################################################
 testprojecthitt = Flask(__name__)
 
-@.route('/')
+@testprojecthitt.route('/')
 def home():
     return render_template('home.html')
 
