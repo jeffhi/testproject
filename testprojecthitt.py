@@ -15,13 +15,13 @@ engine = create_engine(f'postgres://pyuepqwjtgkmfx:75425df2df071f0b81f4e7bca3ad4
 #################################################
 # Flask Setup
 #################################################
-app = Flask(__name__)
+testprojecthitt = Flask(__name__)
 
-@app.route('/')
+@.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('home.html')
 
-@app.route("/wines")
+@testprojecthitt.route("/wines")
 def wines():
     result = []
     count = 0
@@ -49,4 +49,4 @@ def wines():
     return jsonify(result)
     
 if __name__ == "__main__":
-    app.run(debug=True)
+    testprojecthitt.run(debug=True)
