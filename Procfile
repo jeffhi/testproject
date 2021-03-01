@@ -1,1 +1,1 @@
-web: gunicorn testprojecthitt:app
+web: gunicorn main:testprojecthitt
